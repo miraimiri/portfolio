@@ -1,4 +1,20 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: Level Up
+  image: levelup.png
+  description: Final Project of LeWagon. Self-reporting and progress visualization app for self-studying. Uses Ruby merit gem.
+  url: https://www.lvl-up.life/
+  tags:
+    - devicon-rails-plain-wordmark
+
+- name: Renterpreter
+  image: renterpreter.png
+  description: AirBnB clone marketplace app from LeWagon. Rent an interpreter to help you with daily life in another country.
+  url: renterpreter.herokuapp.com
+  tags:
+    - devicon-rails-plain-wordmark
+
+- name: Mr. Cocktail
+  image: mrcocktail.png
+  description: 🍹 Add your favorite Cocktail recipes in one place!
+  url: cocktail-mixit.herokuapp.com/
+  tags:
+    - devicon-rails-plain-wordmark
