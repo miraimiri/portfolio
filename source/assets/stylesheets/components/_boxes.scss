@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  margin-top: 160px;
+  margin-bottom: 96px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutme {
+  text-align: right;
+  width: 60%;
+}
