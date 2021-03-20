@@ -1,5 +1,9 @@
+.container {
+  padding-top: 80px;
+}
+
 #one {
-  position: absolute;
+  position: fixed;
   width: 437px;
   height: 99px;
   left: 178px;
@@ -11,7 +15,7 @@
 }
 
 #two {
-  position: absolute;
+  position: fixed;
   width: 224px;
   height: 110px;
   left: 454px;
@@ -23,7 +27,7 @@
 }
 
 #three {
-  position: absolute;
+  position: fixed;
   width: 280px;
   height: 225px;
   left: 214px;
@@ -35,7 +39,7 @@
 }
 
 #four {
-  position: absolute;
+  position: fixed;
   width: 58px;
   height: 59px;
   left: 185px;

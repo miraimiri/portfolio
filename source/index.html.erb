@@ -1,8 +1,24 @@
-  <!-- Navbar section -->
-<%= partial 'partials/navbar' %>
-<!-- Background section -->
-<%= partial 'partials/background' %>
 <div class="container">
   <!-- Title section -->
-  <%= partial 'partials/title' %>
+  <div class="title">
+    <h1>Hi, my name is Miriam 👋</h1>
+    <h3>welcome to my portfolio</h3>
+  </div>
+  <!-- flexbox -->
+  <div class="flex-index">
+    <!-- button -->
+    <div class="button">
+      <%= link_to "Recent Projects", "/projects.html", class: "btn btn-transparent" %>
+    </div>
+    <!-- about me -->
+    <div class="aboutme">
+      <h3>About me</h3>
+      <p>I’ve started my developer journey in Sep. 2020, joining LeWagon part-time bootcamp in Tokyo.
+        After 24 weeks I graduated in March 2021 as a certified Fullstack Web Developer.
+        <br>
+        I have worked as a Recruitment Consultant in Tokyo for nearly three years.
+        As such, communication, organization, and efficiency have always been key.
+        Being a coder allows me the freedom to experience all of those in a new way.</p>
+    </div>
+  </div>
 </div>
