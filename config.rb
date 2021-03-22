@@ -15,15 +15,17 @@ set :js_dir,     'assets/javascripts'
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
+activate :directory_indexes
+
 activate :autoprefixer do |config|
   config.browsers = '>0.25%, not ie 11, not op_mini all, not dead'
 end
 
 activate :external_pipeline,
-         name: :webpack,
-         command: build? ? 'yarn run build' : 'yarn run start',
-         source: 'dist',
-         latency: 1
+  name: :webpack,
+  command: build? ? 'yarn run build' : 'yarn run start',
+  source: 'dist',
+  latency: 1
 
 page '/*.xml',  layout: false
 page '/*.json', layout: false
