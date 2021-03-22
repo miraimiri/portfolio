@@ -2,6 +2,7 @@
   image: levelup.png
   description: Final Project of LeWagon. Self-reporting and progress visualization app for self-studying. Uses Ruby merit gem.
   url: https://www.lvl-up.life/
+  code: https://github.com/miraimiri/Level_Up
   roles: Backend, PM, Design
   tags:
     - devicon-ruby-plain
@@ -15,6 +16,7 @@
   image: renterpreter.png
   description: AirBnB clone marketplace app from LeWagon. Rent an interpreter to help you with daily life in another country.
   url: renterpreter.herokuapp.com
+  code: https://github.com/miraimiri/Renterpreter
   roles: Frontend
   tags:
     - devicon-ruby-plain
@@ -27,6 +29,7 @@
   image: mrcocktail.png
   description: 🍹 Add your favorite Cocktail recipes in one place!
   url: cocktail-mixit.herokuapp.com/
+  code: https://github.com/miraimiri/rails-mister-cocktail
   roles: Fullstack
   tags:
     - devicon-ruby-plain

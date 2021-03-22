@@ -1,0 +1,35 @@
+<div class="container">
+  <!-- title section -->
+  <div class="title" style="margin-bottom: 0;">
+    <h1>Contact me 📬</h1>
+    <p>feel free to reach out via</p>
+  </div>
+  <!-- contact section -->
+  <div class="flex-contact">
+    <!-- social links -->
+    <div class="social">
+      <h3>Social</h3>
+      <ul>
+        <li><%= link_to '<i class="devicon-linkedin-plain"></i> LinkedIn', 'https://www.linkedin.com/in/miriamderenbach/' %></li>
+        <li><%= link_to '<i class="devicon-github-original"></i> GitHub', 'https://github.com/miraimiri' %></li>
+      </ul>
+    </div>
+    <!-- form -->
+    <div class="form">
+      <form action="https://send.pageclip.co/lSksSYexu7eaLtEHHiEqIAwLnxO3vcGp/contact-form" class="pageclip-form" method="post">
+        <label htmlFor="name">Name</label>
+        <input type="text" name="name" placeholder="Your full name" class="input" required />
+        <label htmlFor="email">Email Address</label>
+        <input type="email" name="email" placeholder="your.email@example.com" class="input" required />
+        <label htmlFor="subject">Email Subject</label>
+        <input type="text" name="subject" placeholder="What about?" class="input" required />
+        <label htmlFor="message">Your Message</label>
+        <textarea type="text" name="message" placeholder="What would you like to tell me?" class="input" required> </textarea>
+        <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+        <button type="submit" class="pageclip-form__submit">
+          <span>Send</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
