@@ -1,0 +1,51 @@
+.container {
+  padding-top: 80px;
+}
+
+#one {
+  position: fixed;
+  width: 437px;
+  height: 99px;
+  left: 178px;
+  top: 143px;
+
+  border: 2px solid #C4C4C4;
+  box-sizing: border-box;
+  z-index: -2;
+}
+
+#two {
+  position: fixed;
+  width: 224px;
+  height: 110px;
+  left: 454px;
+  top: 173px;
+
+  border: 2px solid #C4C4C4;
+  box-sizing: border-box;
+  z-index: -2;
+}
+
+#three {
+  position: fixed;
+  width: 280px;
+  height: 225px;
+  left: 214px;
+  top: 197px;
+
+  border: 2px solid #C4C4C4;
+  box-sizing: border-box;
+  z-index: -2;
+}
+
+#four {
+  position: fixed;
+  width: 58px;
+  height: 59px;
+  left: 185px;
+  top: 382px;
+
+  border: 2px solid #C4C4C4;
+  box-sizing: border-box;
+  z-index: -2;
+}
