@@ -11,8 +11,8 @@
         <!-- image -->
         <div class="project-image" style="background: url(<%= image_path(product.image) %>); background-size: cover;">
           <div class="project-image-links">
-            <p>View Site</p>
-            <p>View Code</p>
+            <%= link_to 'View Site', "#{product.url}", class: "project-image-links-url"  %>
+            <%= link_to 'View Code', "#{product.code}"  %>
           </div>
         </div>
         <!-- text -->
