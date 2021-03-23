@@ -15,7 +15,7 @@
 - name: Renterpreter
   image: renterpreter.png
   description: AirBnB clone marketplace app from LeWagon. Rent an interpreter to help you with daily life in another country.
-  url: renterpreter.herokuapp.com
+  url: https://renterpreter.herokuapp.com/
   code: https://github.com/miraimiri/Renterpreter
   roles: Frontend
   tags:
@@ -28,7 +28,7 @@
 - name: Mr. Cocktail
   image: mrcocktail.png
   description: 🍹 Add your favorite Cocktail recipes in one place!
-  url: cocktail-mixit.herokuapp.com/
+  url: https://cocktail-mixit.herokuapp.com/
   code: https://github.com/miraimiri/rails-mister-cocktail
   roles: Fullstack
   tags:
